@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>José Aguilera</title>
+    <link rel="shortcut icon" href="img/Logo sin fondo.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Encabezado-->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Aguilera</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio"onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#acercademi"onclick="seleccionar()">ACERCA DE MI</a></li>
+                    <li><a href="#skills"onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum"onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio"onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto"onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsivo" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+</div>
+
+
+        <!--SECCION INICIO-->
+        <section id="inicio" class="inicio">
+            <div class="contenido-banner">
+                <div class="contenedor-img">
+                    <img src="img/perfil.png" alt="">
+                </div>
+                <h1>JOSÉ AGUILERA</h1>
+                <h2>Estudiante de ingenieria en informatica</h2>
+                <div class="redes">
+                    <a href="https://www.facebook.com/jose.aguilerayegrosmeu"target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="https://twitter.com/meuaguileraa"target="_blank"><i class="fa-brands fa-square-twitter"></i></a>
+                    <a href="https://www.instagram.com/meuaguilera/"target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/jos%C3%A9-aguilera-itaugua1312/"target="_blank"><i class="fa-brands fa-linkedin"></i></i></a>
+                </div>
+            </div>
+        </section>
+
+
+        <!--ACERCA DE MI-->
+        <section id="acercademi" class="acercademi">
+            <div class="contenido-seccion">
+                <h2>Acerca de mi</h2>
+                <p><span>Soy José Aguilera.</span> Una persona con una gran pasión por la programación, el diseño gráfico, los videojuegos, la gimnasia, la guitarra y la música en general. Me encanta programar porque me permite crear soluciones y herramientas que pueden mejorar la vida de las personas.En resumen, soy una persona apasionada y multifacética que encuentra en cada una de estas actividades una forma de expresión y realización personal.</p>
+
+                <div class="fila">
+                    <!--Datos Personales-->
+                    <div class="col">
+                        <h3>Datos Personales</h3>
+                        <ul>
+                            <li>
+                                <strong>Cumpleaños</strong>
+                                13-12-2000
+                            </li>
+                            <li>
+                                <strong>Télefono</strong>
+                                0986244944
+                            </li>
+                            <li>
+                                <strong>Email</strong>
+                                jose.maria13@hotmail.es
+                            </li>
+                            <li>
+                                <strong>Sitio Web</strong>
+                                ------
+                            </li>
+                            <li>
+                                <strong>Dirección</strong>
+                                Itauguá, Paraguay
+                            </li>
+                            <li>
+                                <strong>Cargo</strong>
+                                <span>Estudiante</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!--Intereses-->
+                    <div class="col">
+                        <h3>Intereses</h3>
+                        <div class="contenedor-intereses">
+                            <div class="intereses">
+                                <i class="fa-solid fa-gamepad"></i>
+                                <span>JUEGOS</span>
+                            </div>
+                            <div class="intereses">
+                                <i class="fa-solid fa-dumbbell"></i>
+                                <span>GYM</span>
+                            </div>
+                            <div class="intereses">
+                                <i class="fa-sharp fa-solid fa-palette"></i>
+                                <span>ARTE</span>
+                            </div>
+                            <div class="intereses">
+                                <i class="fa-solid fa-music"></i>
+                                <span>MUSICA</span>
+                            </div>
+                            <div class="intereses">
+                                <i class="fa-sharp fa-solid fa-guitar"></i>
+                                <span>GUITARRA</span>
+                            </div>
+                            <div class="intereses">
+                                <i class="fa-solid fa-code"></i>
+                                <span>PROGRAMAR</span>
+                            </div>
+                            <div class="intereses">
+                                <i class="fa-solid fa-bicycle"></i>
+                                <span>CICLISMO</span>
+                            </div>
+                            <div class="intereses">
+                                <i class="fa-solid fa-flask-vial"></i>
+                                <span>CIENCIA</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a href="Curriculum José_Aguilera.pdf" download="Curriculum_José_Aguilera"><button>
+                    Descargar CV <i class="fa-solid fa-download"></i>
+                    <span class="overlay"></span>
+                </button></a>
+            </div>
+        </section>
+
+
+        <!--SKILLS-->
+        <section class="skills" id="skills">
+            <div class="div contenido-seccion">
+                <h2>Skills</h2>
+                <div class="fila">
+                    <!--Skills Tecnicos-->
+                    <div class="col">
+                    <h3>Skills Tecnicos</h3>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                    <span>80%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>JavaScript</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                        <span>40%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill">
+                                <span>C++</span>
+                                <div class="barra-skill">
+                                    <div class="progreso">
+                                            <span>55%</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="skill">
+                                    <span>Photoshop</span>
+                                    <div class="barra-skill">
+                                        <div class="progreso">
+                                                <span>78%</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="skill">
+                                        <span>Linux</span>
+                                        <div class="barra-skill">
+                                            <div class="progreso">
+                                                    <span>70%</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="skill">
+                                            <span>Office</span>
+                                            <div class="barra-skill">
+                                                <div class="progreso">
+                                                        <span>90%</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                    </div>
+                    <!-- Skills Profesionales -->
+                    <div class="col">
+                        <h3>Skills Profesionales</h3>
+                        <div class="skill">
+                            <span>Trabajo en equipo</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                        <span>80%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill">
+                                <span>Comunicación</span>
+                                <div class="barra-skill">
+                                    <div class="progreso">
+                                            <span>90%</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="skill">
+                                    <span>Flexibilidad</span>
+                                    <div class="barra-skill">
+                                        <div class="progreso">
+                                                <span>89%</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="skill">
+                                        <span>Creatividad</span>
+                                        <div class="barra-skill">
+                                            <div class="progreso">
+                                                    <span>85%</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="skill">
+                                            <span>Confianza</span>
+                                            <div class="barra-skill">
+                                                <div class="progreso">
+                                                        <span>96%</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="skill">
+                                                <span>Dedicación</span>
+                                                <div class="barra-skill">
+                                                    <div class="progreso">
+                                                            <span>85%</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                        </div>
+                    
+                </div>
+            </div>
+            
+        </section>
+
+<!-- Curriculum -->
+<section id="curriculum" class="curriculum">
+    <div class="contenido-seccion">
+        <h2>Curriculum</h2>
+        <div class="fila">
+            <div class="col izquierda">
+                <h3>Educación</h3>
+                <div class="item izq">
+                    <h4>Primaria</h4>
+                    <span class="casa">Escuela basica nro 707</span>
+                    <span class="fecha">2007 - 2015</span>
+                    <p>Titulo Obtenido: Bachillerato cientifico en ciencias sociales.</p>
+                    <div class="conectori">
+                        <div class="circuloi">
+                        </div>
+                    </div>
+                </div>
+                <div class="item izq">
+                    <h4>Secundaria</h4>
+                    <span class="casa">Colegio nacional EMD de Itauguá</span>
+                    <span class="fecha">2016 - 2018</span>
+                    <p>Titulo Obtenido: Bachillerato cientifico en ciencias sociales.</p>
+                    <div class="conectori">
+                        <div class="circuloi"></div>
+                    </div>
+                </div>
+                <div class="item izq">
+                    <h4>Universidad</h4>
+                    <span class="casa">Universidad Técnica de Comercialización y Desarrollo</span>
+                    <span class="fecha">2019 - Actualmente</span>
+                    <p>Cursando actualemente la carrera de Ingenieria en informatica en quinto año </p>
+                    <div class="conectori">
+                        <div class="circuloi">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col derecha">
+                <h3>Experiencia Laboral</h3>
+                <div class="item der">
+                    <h4>Comerciante/Cajero</h4>
+                    <span class="casa">Despensa 3 Hermanos</span>
+                    <span class="fecha">2017 - 2022</span>
+                    <p>Contacto con proveedores para la gestión del 
+                        abastecimiento de productos y mercancía, uso de diferentes canales de venta para 
+                        llegar al consumidor y poder ofrecer una 
+                        experiencia y asistencia excelente, cumplimiento de los objetivos de venta de la 
+                        empresa.</p>
+                    <div class="conectord">
+                        <div class="circulod"></div>
+                    </div>
+                </div>
+                <div class="item der">
+                    <h4>Operario de Producción</h4>
+                    <span class="casa">THN S.A</span>
+                    <span class="fecha">2019 - 2020</span>
+                    <p>Operación de máquinas siguiendo los 
+                        procedimientos establecidos, registro diario de las actividades realizadas 
+                        para llevar un control preciso de la 
+                        producción, empaquetado y almacenamiento de 
+                        productos.</p>
+
+                </div>
+                <div class="item der">
+                    <h4>Auxiliar de carga de base de datos</h4>
+                    <span class="casa">Municipalidad de Itauguá</span>
+                    <span class="fecha">2020 - 2020</span>
+                    <p>Mantenimiento de la base de datos de la 
+                        empresa.</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Portfolio -->
+<section id="portfolio" class="portfolio">
+    <div class="contenido-seccion">
+        <h2>PORTFOLIO</h2>
+        <div class="galeria">
+            <div class="proyecto">
+                <img src="img/img1.png" alt="">
+                <div class="overlay">
+                    <h3>Dieseño Digital</h3>
+                    <p>Fotografia</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <img src="img/img5.png" alt="">
+                <div class="overlay">
+                    <h3>Pagina Web</h3>
+                    <p>Bootstrap</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <img src="img/img2.png" alt="">
+                <div class="overlay">
+                    <h3>Proyecto</h3>
+                    <p>C++</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <img src="img/img4.png" alt="">
+                <div class="overlay">
+                    <h3>Arte Digital</h3>
+                    <p>Banner</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <img src="img/img3.png" alt="">
+                <div class="overlay">
+                    <h3>Arte Digital</h3>
+                    <p>Logotipo</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <img src="img/img6.png"">
+                <div class="overlay">
+                    <h3>Base de Datos </h3>
+                    <p>SQL Workbench</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contacto -->
+<section id="contacto" class="contacto">
+    <div class="contenido-seccion">
+        <h2>CONTACTO</h2>
+        <div class="fila">
+        <!-- Formulario -->
+        <div class="col">
+      <form id="form">
+  <div class="field">
+    <label for="nombre"></label>
+    <input type="text"placeholder="Nombre" name="nombre" id="nombre">
+  </div>
+  <div class="field">
+    <label for="numero"></label>
+    <input type="text"placeholder="Número" name="numero" id="numero">
+  </div>
+  <div class="field">
+    <label for="correo"></label>
+    <input type="text"placeholder="Correo electronico" name="correo" id="correo">
+  </div>
+  <div class="field">
+    <label for="tema"></label>
+    <input type="text"placeholder="Tema" name="tema" id="tema">
+  </div>
+  <div class="field">
+    <label for="mensaje"></label>
+    <input type="text"placeholder="Mensaje" name="mensaje" id="mensaje">
+  </div>
+
+  <input type="submit" id="button" value="Enviar Mensaje">
+  <span class="overlay"></span>
+</form>
+<script type="text/javascript"
+src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+<script type="text/javascript">
+emailjs.init('GGJw2a6NEZTKu8N9k')
+</script>
+        </div>
+        <!-- Mapa -->
+        <div class="col">
+            <img src="img/ubicacion.png" alt="" >
+            <div class="info">
+                <ul>
+                    <li>
+                        <i class="fa-solid fa-map-location"></i>
+                        Paraguay, Itauguá, Calle Juan Crisostomo Centurión
+                    </li>
+                    <li>
+                        <i class="fa-sharp fa-solid fa-mobile-screen-button"></i>
+                        Llamame al: 0986 244 944
+                    </li>
+                    <li>
+                        <i class="fa-sharp fa-solid fa-envelope"></i>
+                        Email: jose.maria13@hotmail.es
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+
+
+<!-- Pie de pagina -->
+<footer>
+    <a href="#inicio" class="arriba">
+        <i class="fa-solid fa-arrows-up-to-line"></i>
+    </a>
+    <div class="redes">
+        <a href="https://www.facebook.com/jose.aguilerayegrosmeu"target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
+        <a href="https://twitter.com/meuaguileraa"target="_blank"><i class="fa-brands fa-square-twitter"></i></a>
+        <a href="https://www.instagram.com/meuaguilera/"target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/jos%C3%A9-aguilera-itaugua1312/"target="_blank"><i class="fa-brands fa-linkedin"></i></i></a>
+    </div>
+</footer>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
